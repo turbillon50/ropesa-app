@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { TruckIcon, MapPinIcon, ChartBarIcon, CurrencyDollarIcon, ClipboardDocumentListIcon, UserGroupIcon } from "@heroicons/react/24/outline";
+
 
 interface Props { onEnterDemo: () => void; }
 

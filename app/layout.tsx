@@ -1,13 +1,18 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "ROPESA — Vendedores en Ruta",
   description: "Plataforma de gestión para vendedores en ruta de Comercializadora ROPESA",
   manifest: "/manifest.json",
-  themeColor: "#CC1F1F",
   appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "ROPESA" },
-  viewport: { width: "device-width", initialScale: 1, maximumScale: 1 },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: "#CC1F1F",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
