@@ -78,9 +78,7 @@ export default function AdminApp() {
               <span style={{ fontSize: 11, color: "var(--muted-2)" }}>Hoy {new Date().toLocaleDateString("es-MX")}</span>
             </div>
           </div>
-          <div style={{ background: "rgba(34,197,94,0.15)", border: "1px solid rgba(34,197,94,0.3)", color: "var(--green)", borderRadius: 12, width: 48, height: 48, display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M3 21V8l9-5 9 5v13 M3 21h18 M9 21v-6h6v6" /></svg>
-          </div>
+          <img src="/images/logo.jpg" alt="ROPESA" style={{ width: 48, height: 48, borderRadius: 12, objectFit: "cover", boxShadow: "0 4px 14px rgba(0,0,0,0.3)" }} />
         </div>
       </div>
 

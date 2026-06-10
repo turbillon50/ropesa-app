@@ -79,9 +79,7 @@ export default function VendedorApp() {
               <span className="badge badge-gray">Zona Centro</span>
             </div>
           </div>
-          <div style={{ background: "var(--ropesa-red)", borderRadius: 12, width: 48, height: 48, display: "flex", alignItems: "center", justifyContent: "center", color: "white" }}>
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M2 7h11v8H2zM13 10h4l3 3v2h-7z" /><circle cx="6" cy="18" r="1.6" /><circle cx="17" cy="18" r="1.6" /></svg>
-          </div>
+          <img src="/images/logo.jpg" alt="ROPESA" style={{ width: 48, height: 48, borderRadius: 12, objectFit: "cover", boxShadow: "0 4px 14px rgba(204,31,31,0.3)" }} />
         </div>
       </div>
 

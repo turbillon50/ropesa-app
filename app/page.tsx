@@ -31,10 +31,7 @@ export default function Home() {
           <motion.div key="splash" className="fixed inset-0 z-[9999] flex flex-col items-center justify-center"
             style={{ background: "#0A0A0A" }} exit={{ opacity: 0, scale: 1.05 }} transition={{ duration: 0.5 }}>
             <motion.div initial={{ scale: 0.5, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.6, type: "spring" }} className="flex flex-col items-center">
-              <motion.svg width="86" height="86" viewBox="0 0 24 24" fill="none" stroke="#FF4444" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"
-                initial={{ rotate: -8 }} animate={{ rotate: 0 }}>
-                <path d="M2 7h11v8H2zM13 10h4l3 3v2h-7z" /><circle cx="6" cy="18" r="1.6" /><circle cx="17" cy="18" r="1.6" />
-              </motion.svg>
+              <motion.img src="/images/logo.jpg" alt="ROPESA" width={100} height={100} style={{ borderRadius: "50%", boxShadow: "0 10px 40px rgba(204,31,31,0.45)" }} initial={{ rotate: -8, scale: 0.8 }} animate={{ rotate: 0, scale: 1 }} />
               <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.3 }}
                 style={{ fontSize: 44, fontWeight: 900, letterSpacing: "0.1em", marginTop: 10, background: "linear-gradient(135deg, #CC1F1F, #FF4444)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
                 ROPESA

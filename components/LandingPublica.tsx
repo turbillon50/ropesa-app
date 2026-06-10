@@ -36,10 +36,8 @@ export default function LandingPublica({ onEnterDemo }: Props) {
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, rgba(10,10,10,0.35) 0%, rgba(10,10,10,0.55) 55%, var(--bg) 100%)" }} />
         </div>
         <div style={{ position: "relative", minHeight: 340, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "70px 24px 40px", textAlign: "center" }}>
-          <motion.svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#FF5555" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"
-            initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: "spring", delay: 0.1 }}>
-            <path d="M2 7h11v8H2zM13 10h4l3 3v2h-7z" /><circle cx="6" cy="18" r="1.6" /><circle cx="17" cy="18" r="1.6" />
-          </motion.svg>
+          <motion.img src="/images/logo.jpg" alt="ROPESA" width={92} height={92} style={{ borderRadius: "50%", border: "2px solid rgba(255,255,255,0.25)", boxShadow: "0 10px 36px rgba(0,0,0,0.5)" }}
+            initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: "spring", delay: 0.1 }} />
           <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }}>
             <div style={{ fontSize: 38, fontWeight: 900, letterSpacing: "0.08em", marginTop: 8, background: "linear-gradient(135deg, #FF6666, #CC1F1F)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>ROPESA</div>
             <p style={{ color: "#E5E5E5", fontSize: 12, letterSpacing: "0.3em", textTransform: "uppercase", marginBottom: 10 }}>COMERCIALIZADORA</p>
